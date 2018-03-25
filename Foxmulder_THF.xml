@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>true</statusupdate>
+		<hpupdate>true</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+
+	<sets>
+		<!-- This is your idle set. The set you're in when not engaged-->
+		<!-- It's best to put in your +movespeed gear and defensives-->
+		<!-- Or whatever makes you look most like the dashing rogue you are-->
+
+		<set name="Resting">
+
+		</set>
+		<set name="Idle">
+			<ammo>Yamarang</ammo>
+			<head>Ocelo. Headpiece</head>
+			<neck>Sanctity Necklace</neck>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<lring>Sheltered Ring</lring>
+			<rring>Paguroidea Ring</rring>
+			<back>Moonbeam Cape</back>
+			<waist>Flume Belt</waist>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Skulk. Poulaines +1</feet>
+
+		</set>
+		
+
+		<set name="Town">
+			<main>Mandau</main>
+			<sub>Jugo Kukri +1</sub>
+			<head>-</head>
+			<body>Onca Suit</body>
+			<waist>Flume Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Sheltered Ring</ring1>
+			<ring2>Paguroidea Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>		
+
+		<!-- You can turn on your evasion set to be 'default TP set' by typing /eva -->
+		<set name="Evasion">
+			<ammo>Yamarang</ammo>
+			<head>Pill. Bonnet +2</head>
+			<body>Emet Harness +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Hurch'lan Sash</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		
+		
+		<set name="Evasion-TH" base="Evasion">
+		<hands>Plun. Armlets +1</hands>
+				<waist>Chaac Belt</waist>
+				<feet>Skulk. Poulaines +1</feet>
+		</set>
+		<!-- You can turn an an MDT set here by typing /mdt -->
+		<!-- However mine is not included, as I don't have inventory room at the moment -->
+		<set name="MDT" baseset="Evasion">
+			<ammo>Demonry Stone</ammo>
+			<head>Skulker's Bonnet +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Skulk. Poulaines +1</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Resolute Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+		<!-- Same as above, you can type /pdt to turn on this set, if you have one -->
+
+
+		<set name="PDT"  baseset="Evasion">
+			<ammo>Staunch Tathlum</ammo>
+			<head>meghanada visor +1</head>
+			<body>Emet Harness +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Flume Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+		<!-- This is your general TP set, it's included seperately to idle, so you dont walk in dusk -->
+		<!-- If you've made additional changes to idle, make sure this set has everything you wish to TP in -->
+		<set name="TP-LowAcc">
+			<ammo>Ginsen</ammo>
+			<head augment="D15444866107840">Adhemar Bonnet</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands augment="D15444866107840">Adhemar Wristbands</hands>
+			<legs augment="S46184061265945">Herculean Trousers</legs>
+			<feet augment="S54988744212505">Herculean Boots</feet>
+			<neck>Anu Torque</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Hetairoi Ring</ring2>
+			<back>Bleating Mantle</back>
+
+		</set>
+
+
+		<set name="TP-MidAcc">
+			<ammo>Yamarang</ammo>
+			<head>Skulker's Bonnet +1</head>
+
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands augment="D15444866107840">Adhemar Wristbands</hands>
+			<legs>Herculean Trousers</legs>
+			<feet>Herculean Boots</feet>
+			<neck>Anu Torque</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Hetairoi Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+
+
+		<set name="TP-HighAcc">
+			<ammo>Yamarang</ammo>
+			<head>Pill. Bonnet +2</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands augment="D15444866107840">Adhemar Wristbands</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet augment="S54988744212505">Herculean Boots</feet>
+			<neck>Lissome Necklace</neck>
+			<waist>Hurch'lan Sash</waist>
+			<ear1>Digni. Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+
+		
+		<!-- This is an intentionally gimped TP set with PDT/Magic Eva for Proccing. Intention isn't too
+		kill the mob very fast, allowing you more chances to get TH procs. -->
+		<set name="THProc">
+			<main>Sandung</main>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Mummu Bonnet +1</head>
+			<body>Emet Harness +1</body>
+			<hands augment="M3333">Plun. Armlets +1</hands>
+			<legs>Limbo Trousers</legs>
+			<feet>Skulk. Poulaines +1</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Chaac Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>		
+
+
+
+		<!-- This will make sure you use all your haste gear on Ichi: Ni and others -->
+		<set name="Haste">
+			<head>Skulker's Bonnet +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands augment="D15444866107840">Adhemar Wristbands</hands>
+			<legs>Enif Cosciales</legs>
+			<feet augment="M1361">Plun. Poulaines +1</feet>
+			<neck>Magoraga Beads</neck>
+			<waist>Hurch'lan Sash</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Eabani Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Canny Cape</back>
+		</set>
+		<!-- This set should proc on Ranged Weaponskills, the items are only placeholders atm -->
+		<!-- I do not have /RNG levelled yet, and thus haven't really tested it -->
+		<!-- If this doesn't work and you fix it, please update for others where you found this XML -->
+		<set name="Ranged">
+	
+			<head>Meghanada Visor +1</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Sanctity Necklace</neck>
+			<waist>Patentia Sash</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Cessance Earring</ear2>
+			<ring1>Etana Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Kayapa Cape</back>
+
+		</set>
+		<!-- This will equip gear for 'Mercy Stroke' Relic WS -->
+		<set name="Mercy-LowAcc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet augment="S54988744212505">Herculean Boots</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear2>Sherida Earring</ear2>
+			<ear1>Cessance Earring</ear1>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+		<set name="Mercy-MidAcc" baseset="Mercy-LowAcc">
+		</set>
+		<set name="Mercy-HighAcc" baseset="Mercy-LowAcc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1>Digni. Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+
+		<set name="Exe-LowAcc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head augment="D15444866107840">Adhemar Bonnet</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+		<set name="Exe-MidAcc" baseset="Exe-LowAcc">
+		</set>
+
+		<set name="Exe-HighAcc" baseset="Exe-LowAcc">
+		</set>
+		<set name="Rudra-LowAcc">
+
+			<ammo>Qirmiz Tathlum</ammo>
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Grunfeld Rope</waist>
+			<ear2>Sherida Earring</ear2>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+		<set name="Rudra-MidAcc" baseset="Rudra-LowAcc">
+		</set>
+		<set name="Rudra-HighAcc">
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Caudata Belt</waist>
+			<ear2>Sherida Earring</ear2>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+
+		<set name="Aeolian-LowAcc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Pill. Bonnet +2</head>
+			<body augment="D768861412098">Rawhide Vest</body>
+			<hands augment="S1237182801080552188">Leyline Gloves</hands>
+			<legs>Limbo Trousers</legs>
+			<feet augment="S54988744212505">Herculean Boots</feet>
+			<neck>Sanctity Necklace</neck>
+			<waist>Eschan Stone</waist>
+			<ear1>Sortiarius Earring</ear1>
+			<ear2>Friomisi Earring</ear2>
+			<ring1>Shiva Ring</ring1>
+			<ring2>Shiva Ring</ring2>
+			<back>Toro Cape</back>
+
+		</set>
+		<set name="Aeolian-MidAcc" baseset="Aeolian-LowAcc">
+		</set>
+
+		<set name="Aeolian-HighAcc" baseset="Aeolian">
+		</set>
+		<!-- This will equip gear for all your other WS's. Mainly aimed at Shark Bite
+                                (For when mandau poison isn't allowed) -->
+		<!-- If you do not have Mercy Stroke, it may be best to set up an additional set
+                                     since MS will be replaced by Dancing Edge / Evis, and they should use different gear to SB -->
+		<set name="Multi-LowAcc">
+
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Sanctity Necklace</neck>
+			<waist>Caudata Belt</waist>
+			<ear2>Sherida Earring</ear2>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+
+		<set name="Multi-HighAcc">
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Sanctity Necklace</neck>
+			<waist>Caudata Belt</waist>
+			<ear2>Sherida Earring</ear2>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+		</set>
+
+		<!-- Extend your flee duration! -->
+		<set name="Flee">
+			<feet>Pill. Poulaines +2</feet>
+		</set>
+		<!-- Extend your Hide Duration! -->
+		<set name="Hide">
+			<body>Pillager's Vest +2</body>
+		</set>
+		<set name="Accomp">
+			<head>Skulker's Bonnet +1</head>
+		</set>
+		<!-- This will equip when you use Sneak attack. Fill it up with DEX -->
+		<!-- Be aware, when you SA THEN IMMEDIATELY WS, your SA set will be over-written by your WS set-->
+		<!-- Plan accordingly. It may be better to get +3DEX in your WS set,
+                                rather than 1STR, even if WS has no dex mod etc -->
+		<set name="Sneak Attack" baseset="TP">
+			<ammo>Qirmiz Tathlum</ammo>
+			<head>Skulker's Bonnet +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Pill. Armlets +2</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Asperity Necklace</neck>
+			<waist>Chiner's Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+
+		</set>
+		<!-- Same as above. This will equip on TA. Fill it up with AGI -->
+		<!-- This will also be over-written by WS sets -->
+		<!-- You could theoretically make this more advanced by making SA+WS, TA+WS + SATA+WS sets
+                                        and add additional rules. I have not, as stacking STR on MS is optimal as far as I know-->
+
+
+		<set name="Trick Attack">
+
+			<head>Pill. Bonnet +2</head>
+			<body>Meg. Cuirie +1</body>
+			<hands>Pill. Armlets +2</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Asperity Necklace</neck>
+			<waist>Chaac Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Garuda Ring</ring1>
+			<ring2>Garuda Ring</ring2>
+			<back>Canny Cape</back>
+		</set>
+
+
+		<set name="Steal">
+
+			<hands>Pill. Armlets +2</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Pill. Poulaines +2</feet>
+		</set>
+		<!-- Again, this will equip when you have both SA and TA active at the same time -->
+		<!-- Look for your highest combined DEX & AGI to equipped here -->
+		<!-- Will be over-written by WS sets. Plan accordingly -->
+		<set name="SATA" baseset="TP">
+			<head>Skulker's Bonnet +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Pill. Armlets +2</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Asperity Necklace</neck>
+			<waist>Chiner's Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270518759">Toutatis's Cape</back>
+
+		</set>
+
+
+		<set name="Movement">
+			<feet>Fajin Boots</feet>
+		</set>
+
+		<!-- For items not explicitly defined in gearswap sets above  -->
+		<!-- but needed in inventory while this script is active.     -->
+		<!-- (e.g. main-hand weapons, ammo, potions, etc.)            -->
+
+
+
+
+
+		<set name="Waltz">
+			<ammo>Yamarang</ammo>
+			<head>Mummu Bonnet +1</head>
+			<body>Herculean Vest</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Pill. Culottes +2</legs>
+			<feet augment="M1361">Plun. Poulaines +1</feet>
+			<neck>Unmoving Collar +1</neck>
+			<waist>Chaac Belt</waist>
+			<ear1>Oneiros Earring</ear1>
+			<ear2>Eabani Earring</ear2>
+			<ring1>Asklepian Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Laic Mantle</back>
+		</set>
+
+
+
+		<set name="Shit">
+			<main>Jugo Kukri +1</main>
+			<ammo>Ginsen</ammo>
+			<head augment="D7378845634058">Pursuer's Beret</head>
+			<body>Enforcer's Harness</body>
+			<hands augment="M3333">Plun. Armlets +1</hands>
+			<legs>Mummu Kecks +1</legs>
+			<feet>Skulk. Poulaines +1</feet>
+			<neck>Lissome Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Hetairoi Ring</ring2>
+			<back>Canny Cape</back>
+		</set>
+                                <include>
+			<!-- Main-hand weapons -->
+			<item quantity="all">Dart</item>
+			<item>Mandau</item>
+			<item>Sandung</item>
+
+			<item>Levante Dagger</item>						
+			<!-- Ranged weapons -->
+
+			<!-- Ammo-slot equips -->
+			<!-- You may also want additional bolts, such as poison, however these are the big 4 I use -->
+
+		</include>
+	</sets>
+	<!-- Don't fiddle with these unless you know how it works -->
+	<!-- This is how I've set up the option to have various gear sets
+                                     via input commands such as /th or /eva. They all work, however
+                                         they may not be coded 'optimally' so if you can clean it up, feel free -->
+	<variables>
+		<var name="TH" value="0" />
+		<var name="Set">LowAcc</var>
+		<var name="EvasionSetActive">0</var>
+		<var name="MDTSetActive">0</var>
+		<var name="PDTSetActive">0</var>
+		<var name="TH">0</var>
+	</variables>
+
+	<inputcommands>
+		<cmd input="/killall">
+
+
+			<setvar name="MDTSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+			<setvar name="EvasionSetActive" value="0" />
+			<setvar name="TH" value="0" />
+
+			<addtochat color="57">KILLED IT ALL, son!</addtochat>
+		</cmd>
+		<cmd input="/acc">
+
+			<if advanced="$Set=LowAcc">
+				<setvar name="Set" value="MidAcc" />
+				<addtochat color="57">Mid Accuacy</addtochat>
+			</if>
+			<elseif advanced="$Set=MidAcc">
+				<setvar name="Set" value="HighAcc" />
+				<addtochat color="57">High accuracy</addtochat>
+			</elseif>
+			<elseif>
+				<setvar name="Set" value="LowAcc" />
+				<addtochat color="57">Low accuracy</addtochat>
+			</elseif>
+		</cmd>
+
+		<!-- Treasure Hunter Toggle (If you want to replace the /th into
+                                                 something more user friendly, you can alter it just below -->
+		<cmd input="/th">
+			<if advanced="$TH=0">
+				<setvar name="TH" value="1" />
+				<addtochat color="57">Treasure Hunter TP set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="TH" value="0" />
+				<addtochat color="57">Treasure Hunter set TP disabled!</addtochat>
+			</else>
+		</cmd>
+
+		<!-- Evasion set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/eva">
+			<setvar name="MDTSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+			<if advanced="$EvasionSetActive=0">
+				<setvar name="EvasionSetActive" value="1" />
+				<addtochat color="57">Evasion set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="EvasionSetActive" value="0" />
+				<addtochat color="57">Evasion set disabled.</addtochat>
+			</else>
+		</cmd>
+		<!-- MDT set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/mdt">
+			<setvar name="EvasionSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+
+			<if advanced="$MDTSetActive=0">
+				<setvar name="MDTSetActive" value="1" />
+				<addtochat color="57">MDT set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="MDTSetActive" value="0" />
+				<addtochat color="57">MDT set disabled.</addtochat>
+			</else>
+		</cmd>
+		<!-- PDT set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/pdt">
+			<setvar name="EvasionSetActive" value="0" />
+			<setvar name="MDTSetActive" value="0" />
+
+			<if advanced="$PDTSetActive=0">
+				<setvar name="PDTSetActive" value="1" />
+				<addtochat color="57">PDT set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="PDTSetActive" value="0" />
+				<addtochat color="57">PDT set disabled.</addtochat>
+			</else>
+		</cmd>
+
+		<!-- For personal testing. -->
+		<cmd input="/debug">
+		</cmd>
+	</inputcommands>
+
+	<init>
+        <command>/macro book 5</command>
+		<if p_subjob="DNC"><command delay="500">/macro set 1</command></if>
+<!-- 		<if p_subjob="DRK"><command delay="500">/macro set 3</command></if>
+		<if p_subjob="BLU"><command delay="500">/macro set 4</command></if>		
+		<if p_subjob="SAM"><command delay="500">/macro set 5</command></if>
+		<if p_subjob="NIN"><command delay="500">/macro set 2</command></if> -->
+   	</init>
+		
+	
+	<!-- These are the rules to make all your gearsets work.
+                                         Again, the code could be optimised, but do not touch them
+                   				   if you do not know what you're doing. This can break the entire XML -->
+	<idlegear>
+
+
+		<if eq_rring="Trizek Ring">
+			<equip lock="true">
+				<rring>Trizek Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Capacity Ring">
+			<equip lock="true">
+				<rring>Capacity Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Vocation Ring">
+			<equip lock="true">
+				<rring>Vocation Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Facility Ring">
+			<equip lock="true">
+				<rring>Facility Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Dim. Ring (Dem)">
+			<equip lock="true">
+				<rring>Dim. Ring (Dem)</rring>                
+			</equip>
+		</if>
+		<if eq_lring="Dim. Ring (Dem)">
+			<equip lock="true">
+				<lring>Dim. Ring (Dem)</lring>                
+			</equip>
+		</if>
+		<if buffactive="Madrigal">
+			<equip>
+				<lear>Kuwunga Earring</lear>
+			</equip></if>
+		<if eq_back="Mecisto. Mantle">
+			<equip lock="true">
+				<back>Mecisto. Mantle</back>                
+			</equip>
+		</if>	
+		<if eq_ammo="Dart">
+			<equip lock="true">
+				<ammo>Dart</ammo>                
+			</equip>
+		</if>	
+		<if eq_rring="Warp Ring">
+			<equip lock="true">
+				<rring>Warp Ring</rring>				
+			</equip>
+		</if>
+		<elseif eq_lring="Warp Ring">
+			<equip lock="true">
+				<lring>Warp Ring</lring>				
+			</equip>
+		</elseif>
+		<elseif p_status="resting">
+			<equip set="Resting" />
+
+		</elseif>
+		<elseif advanced="$EvasionSetActive=1">
+		<equip set="Evasion" />
+
+     	<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+	
+		</elseif>
+		<elseif advanced="$MDTSetActive=1">
+			<equip set="MDT" />
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+		</elseif>
+
+
+		<elseif advanced="$PDTSetActive=1">
+			<equip set="PDT" />
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+		</elseif>
+		<elseif buffactive="Sneak Attack|Trick Attack">
+			<if buffactive="Sneak Attack&Trick Attack">
+				<equip set="SATA" />
+							<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+			</if>
+			<elseif buffactive="Trick Attack">
+				<equip set="Trick Attack" />
+							<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+			</elseif>
+			<else>
+				<equip set="Sneak Attack" />
+			</else>
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+
+		</elseif>
+		<else>
+
+		<if p_status="engaged">
+			<equip set="TP-$Set" />
+			<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+		</if>
+
+			<else>
+				<equip set="Idle" />
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+			</else>
+		</else>
+	</idlegear>
+
+	<preranged>
+		<equip set="Ranged" />
+	</preranged>
+
+	<premagic>
+		<!-- Evasion gear is equipped during Utsusemi, with Haste gear also for Ni. -->
+		<if ad_name="Utsusemi*">
+			<equip set="Evasion" />
+			<if ad_name="*Ni">
+				<equip set="Haste" />
+			</if>
+		</if>
+		<if ad_name="Monomi*|Tonko*">
+			<equip set="Haste" />
+		</if>
+		<else>
+			<equip set="Haste" />
+		</else>
+	</premagic>
+
+	<midmagic>
+		<if ad_name="Monomi*">
+			<command>/cancel 71</command>
+		</if>
+		<elseif ad_name="Utsusemi: Ichi">
+			<!-- Cancels shadows if... -->
+			<if buffactive="66"> <!-- One is shadow left -->
+				<command>/cancel 66</command>
+			</if>
+			<elseif buffactive="444"> <!-- Two shadows are left -->
+				<command>/cancel 444</command>
+			</elseif>
+			<else> <!-- Three are shadows left -->
+				<command>/cancel 445</command>
+			</else>
+		</elseif>
+	</midmagic>
+
+	<jobability>                           
+		<if ad_name="Flee|Hide|Steal|Mug">
+			<equip set="%ad_name" />
+		</if>
+		<if ad_name="Curing*">
+			<equip set="Waltz" />
+		</if>
+		<if ad_name="Accomplice|Collaborator">
+			<equip set="Accomp" />
+		</if>
+		<elseif ad_name="Spectral Jig">
+			<!--<command>/cancel 71</command> -->
+		</elseif>
+	</jobability>
+
+	<weaponskill>
+		<if ad_name="Mercy Stroke">
+			<equip set="Mercy-$Set" />
+			<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<waist>Chaac Belt</waist>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+			
+		</if>
+		<elseif ad_name="Exenterator">
+			<equip set="Exe-$Set" />
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<waist>Chaac Belt</waist>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+		</elseif>
+		<elseif ad_name="Rudra*|Dancing Edge|Evis*">
+			<equip set="Rudra-$Set" />
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<waist>Chaac Belt</waist>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+		</elseif>
+		<elseif ad_name="Aeolian Edge">
+			<equip set="Aeolian-$Set" />
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<waist>Chaac Belt</waist>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+		</elseif>
+		<else>
+			<equip set="Multi-$Set" />
+						<if advanced="$TH=1">
+				<equip><hands>Plun. Armlets +1</hands>
+				<waist>Chaac Belt</waist>
+				<feet>Skulk. Poulaines +1</feet></equip>
+			</if>
+		</else>
+        <if p_tp="<3000"><equip><ear1>Moonshade Earring</ear1></equip></if>
+	</weaponskill>
+</ashitacast>

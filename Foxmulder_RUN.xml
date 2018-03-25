@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>true</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+
+	<sets>
+		<!-- This is your idle set. The set you're in when not engaged-->
+		<!-- It's best to put in your +movespeed gear and defensives-->
+		<!-- Or whatever makes you look most like the dashing rogue you are-->
+		<set name="Resting">
+
+		</set>
+		<set name="Idle">
+			<ammo>Staunch Tathlum</ammo>
+			<head>Ocelo. Headpiece</head>
+			<body>Runeist Coat +1</body>
+			<hands>Erilaz Gauntlets +1</hands>
+			<legs>Eri. Leg Guards +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Sanctity Necklace</neck>
+			<waist>Fucho-no-Obi</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Sheltered Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+
+		<!-- You can turn an an MDT set here by typing /mdt -->
+		<!-- However mine is not included, as I don't have inventory room at the moment -->
+
+		<set name="MDT">
+			<ammo>Staunch Tathlum</ammo>
+			<head>Erilaz Galea +1</head>
+			<body augment="M3349">Futhark Coat +1</body>
+			<hands>Erilaz Gauntlets +1</hands>
+			<legs>Eri. Leg Guards +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Warder's Charm +1</neck>
+			<waist>Resolute Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+		<set name="Town">
+			<head>Guide Beret</head>
+			<body>Runeist Coat +1</body>
+			<hands>Runeist Mitons +1</hands>
+			<legs>Rune. Trousers +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+		</set>		
+		
+		<!-- Same as above, you can type /pdt to turn on this set, if you have one -->
+
+		<set name="PDT">
+			<ammo>Staunch Tathlum</ammo>
+			<head augment="M1454">Fu. Bandeau +1</head>
+			<body>Erilaz Surcoat +1</body>
+			<hands augment="S123244364451865">Herculean Gloves</hands>
+			<legs>Eri. Leg Guards +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Flume Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<!-- This is your general TP set, it's included seperately to idle, so you dont walk in dusk -->
+		<!-- If you've made additional changes to idle, make sure this set has everything you wish to TP in -->
+
+
+		<set name="TP-Old" baseset="GS-Old">
+		</set>
+
+
+		<set name="TP-Acc" baseset="GS-Acc">
+		</set>
+
+
+		<set name="GS-Old">
+			<ammo>Ginsen</ammo>
+			<head augment="D15444866107840">Adhemar Bonnet</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands augment="S123244364451865">Herculean Gloves</hands>
+			<legs augment="S46184061265945">Herculean Trousers</legs>
+			<feet augment="D16235139959052">Carmine Greaves</feet>
+			<neck>Anu Torque</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Petrov Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>
+		</set>
+
+		<set name="GS-Acc">
+			<ammo>Yamarang</ammo>
+			<head augment="D16235139959052">Carmine Mask</head>
+			<body>Erilaz Surcoat +1</body>
+			<hands augment="D15444866107840">Adhemar Wristbands</hands>
+			<legs augment="D21732731652876">Carmine Cuisses +1</legs>
+			<feet augment="D16235139959052">Carmine Greaves</feet>
+			<neck>Lissome Necklace</neck>
+			<waist>Windbuffet Belt +1</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Petrov Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>	
+		</set>
+
+		
+
+		<set name="TP-Hybrid1">
+			<body>Meg. Cuirie +1</body>
+			<legs>Eri. Leg Guards +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Flume Belt</waist>
+			<ring1>Defending Ring</ring1>
+		</set>
+
+
+		<!-- Default Precast can include Quick Magic gear -->
+		<set name="Precast">
+			<ammo>Sapience Orb</ammo>
+			<head>Rune. Bandeau +1</head>
+			<body>Runeist Coat +1</body>
+			<hands augment="S1237182801080552188">Leyline Gloves</hands>
+			<legs>Orvail Pants +1</legs>
+			<feet augment="D16235139959052">Carmine Greaves</feet>
+			<neck augment="S11021322619020">Jeweled Collar</neck>
+			<waist>Eschan Stone</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Kishar Ring</ring1>
+			<ring2>Prolix Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		
+		<!-- Cure Precast -->
+		<set name="CurePre" baseset="Precast">
+
+		</set>
+		
+		<!-- Ele Precast. No Quick Magic so you don't fuck up MB timing-->
+		<set name="ElePre" baseset="Precast">
+		</set>
+		
+		<!-- Enhancing Precast -->
+		<set name="EnhPre" baseset="Precast">
+			<waist>Siegel Sash</waist>		
+		</set>
+
+		<set name="Haste">
+			<ammo>Staunch Tathlum</ammo>
+			<head>Erilaz Galea +1</head>
+			<body>Runeist Coat +1</body>
+			<hands augment="S1237182801080552188">Leyline Gloves</hands>
+			<legs augment="D21732731652876">Carmine Cuisses +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Moonbeam Necklace</neck>
+			<waist>Resolute Belt</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Kishar Ring</ring1>
+			<ring2>Prolix Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="Cure" />
+		<set name="Curaga" />
+		<set name="Cursna" baseset="Haste" />
+		<!-- Enhancing magic-->
+		<set name="Enhancing">
+			<ammo>Staunch Tathlum</ammo>
+			<head augment="D16235139959052">Carmine Mask</head>
+			<body>Runeist Coat +1</body>
+			<hands>Runeist Mitons +1</hands>
+			<legs augment="D21732731652876">Carmine Cuisses +1</legs>
+			<feet augment="M1455">Futhark Boots +1</feet>
+			<neck>Melic Torque</neck>
+			<waist>Cascade Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Etana Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="Stoneskin" baseset="Enhancing">
+			<ear2>Earthcry Earring</ear2>
+			<waist>Siegel Sash</waist>
+		</set>
+		<set name="SelfRefresh" baseset="Enhancing">
+			<head>Erilaz Galea +1</head>
+			<legs augment="M1456">Futhark Trousers +1</legs>			
+			<waist>Gishdubar Sash</waist>
+		</set>	
+
+		<set name="Regen">
+			<ammo>Staunch Tathlum</ammo>
+			<head>Rune. Bandeau +1</head>
+			<body>Runeist Coat +1</body>
+			<hands>Runeist Mitons +1</hands>
+			<legs augment="M1456">Futhark Trousers +1</legs>
+			<feet augment="M1455">Futhark Boots +1</feet>
+			<neck>Melic Torque</neck>
+			<waist>Cascade Belt</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Etana Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="Barspells" baseset="Enhancing">	
+			<legs augment="M1456">Futhark Trousers +1</legs>		
+		</set>
+		<set name="Phalanx" baseset="Enhancing">
+			<head>Erilaz Galea +1</head>
+			<legs augment="M1456">Futhark Trousers +1</legs>			
+		</set>
+		
+		<set name="Divine" baseset="Enhancing"></set>
+		
+		<set name="Flash" baseset="ENMITY"></set>
+		
+		<set name="Crusade" baseset="Enhancing">
+			<legs augment="M1456">Futhark Trousers +1</legs>		
+		</set>
+		
+
+
+		<set name="Vivacious Pulse">
+			<ammo>Staunch Tathlum</ammo>
+			<head>Erilaz Galea +1</head>
+			<body>Runeist Coat +1</body>
+			<hands>Runeist Mitons +1</hands>
+			<legs>Rune. Trousers +1</legs>
+			<feet>Runeist Bottes +1</feet>
+			<neck>Sanctity Necklace</neck>
+			<waist>Eschan Stone</waist>
+			<ear1>Beatific Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Globidonta Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>		
+		<!-- Use /mp to toggle on some Refresh gear. -->
+		<set name="Refresh Gear">
+			<body>Runeist Coat +1</body>
+			<waist>Fucho-no-Obi</waist>
+		</set>
+		
+		<!-- This set should proc on Ranged Weaponskills, the items are only placeholders atm -->
+		<!-- I do not have /RNG levelled yet, and thus haven't really tested it -->
+		<!-- If this doesn't work and you fix it, please update for others where you found this XML -->
+		<set name="Ranged">
+
+
+
+		</set>
+		<!-- This will equip gear for 'Mercy Stroke' Relic WS -->
+
+
+		<set name="Reso-Old">
+			<ammo>Knobkierrie</ammo>
+			<head augment="D15444866107840">Adhemar Bonnet</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs augment="S46184061265945">Herculean Trousers</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>
+		</set>
+
+
+		<set name="Reso-Acc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Meghanada Visor +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>		
+		</set>
+		
+		<set name="Dimidation-Old">
+			<ammo>Knobkierrie</ammo>
+			<head augment="D15444866107840">Adhemar Bonnet</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs augment="S46184061265945">Herculean Trousers</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>	
+		</set>
+
+		<set name="Dimidation-Acc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Meghanada Visor +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>	
+		</set>
+		
+		<set name="Shockwave">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head augment="D16235139959052">Carmine Mask</head>
+			<body augment="D16235139959052">Carm. Scale Mail</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs augment="D21732731652876">Carmine Cuisses +1</legs>
+			<feet augment="D16235139959052">Carmine Greaves</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>
+		</set>
+		
+		<set name="Req-Old">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head augment="D16235139959052">Carmine Mask</head>
+			<body augment="D16235139959052">Carm. Scale Mail</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs augment="D21732731652876">Carmine Cuisses +1</legs>
+			<feet augment="D16235139959052">Carmine Greaves</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2 augment="S560011289">Moonshade Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Levia. Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>
+		</set>
+		
+		<set name="Req-Acc" baseset="Req-Old">
+		</set>
+		
+
+		
+		<!-- This will equip gear for all your other WS's. Mainly aimed at Shark Bite
+                                (For when mandau poison isn't allowed) -->
+		<!-- If you do not have Mercy Stroke, it may be best to set up an additional set
+                                     since MS will be replaced by Dancing Edge / Evis, and they should use different gear to SB -->
+		<set name="Multi-Old">
+			<ammo>Knobkierrie</ammo>
+			<head augment="D15444866107840">Adhemar Bonnet</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs augment="S46184061265945">Herculean Trousers</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>
+		</set>
+
+		<set name="Multi-Acc">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head>Meghanada Visor +1</head>
+			<body augment="D15444866107840">Adhemar Jacket</body>
+			<hands>Meg. Gloves +1</hands>
+			<legs>Meg. Chausses +1</legs>
+			<feet>Meg. Jam. +1</feet>
+			<neck>Fotia Gorget</neck>
+			<waist>Fotia Belt</waist>
+			<ear1 augment="S560011289">Moonshade Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Epona's Ring</ring1>
+			<ring2>Regal Ring</ring2>
+			<back augment="S255463270418575">Ogma's cape</back>	
+		</set>
+		
+		<set name="ENMITY">
+			<ammo>Sapience Orb</ammo>
+			<head>Erilaz Galea +1</head>
+			<body>Emet Harness +1</body>
+			<hands augment="M1457">Futhark Mitons +1</hands>
+			<legs>Eri. Leg Guards +1</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Unmoving Collar +1</neck>
+			<waist>Ioskeha Belt</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Petrov Ring</ring1>
+			<ring2>Begrudging Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+		<set name="Movement">
+			<legs>Carmine Cuisses +1</legs>
+		</set>
+
+		<!-- For items not explicitly defined in gearswap sets above  -->
+		<!-- but needed in inventory while this script is active.     -->
+		<!-- (e.g. main-hand weapons, ammo, potions, etc.)            -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<set name="DarkMagic">
+			<ammo>Yamarang</ammo>
+			<head augment="D16235139959052">Carmine Mask</head>
+			<body augment="D16235139959052">Carm. Scale Mail</body>
+			<hands augment="S1237182801080552188">Leyline Gloves</hands>
+			<legs>Miasmic Pants</legs>
+			<feet>Erilaz Greaves +1</feet>
+			<neck>Erra Pendant</neck>
+			<waist>Fucho-no-Obi</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Etana Ring</ring1>
+			<ring2>Kishar Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="MAB">
+			<ammo>Seeth. Bomblet +1</ammo>
+			<head augment="S1100815695260118455">Herculean Helm</head>
+			<body>Emet Harness +1</body>
+			<hands augment="S1237182801080552188">Leyline Gloves</hands>
+			<legs>Eri. Leg Guards +1</legs>
+			<feet augment="S54988744212505">Herculean Boots</feet>
+			<neck>Eddy Necklace</neck>
+			<waist>Eschan Stone</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2>Sortiarius Earring</ear2>
+			<ring1>Moonbeam Ring</ring1>
+			<ring2>Moonbeam Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+
+
+            <include>
+			<item quantity="12">Echo Drops</item>
+			<item quantity="12">Remedy</item>
+			<item quantity="12">Holy Water</item>
+			<item quantity="12">Antidote</item>
+			<item>Hepatizon Axe</item>
+			<item>Blurred Sword</item>
+			<item>Aettir</item>
+			<item>Montante +1</item>
+			<item>Utu Grip</item>
+		</include>
+	</sets>
+	<!-- Don't fiddle with these unless you know how it works -->
+	<!-- This is how I've set up the option to have various gear sets
+                                     via input commands such as /th or /eva. They all work, however
+                                         they may not be coded 'optimally' so if you can clean it up, feel free -->
+	<variables>
+		<var name="MP">0</var>
+		<var name="CP">0</var>	
+		<var name="hybrid">Off</var>
+		<var name="Set">Old</var>
+		<var name="MDTSetActive">0</var>
+		<var name="PDTSetActive">0</var>
+		<var name="TH">0</var>
+		<var name="Reraise">0</var>
+		<var name="Death">0</var>
+		<var name="Charm">0</var>
+		<var name="SIR">0</var>	
+		<var name="MagicEva">0</var>		
+	</variables>
+
+	<inputcommands>
+		<cmd input="/killall">
+			<setvar name="MP" value="0" />
+			<setvar name="CP" value="0" />
+			<setvar name="SIR" value="0" />
+			<setvar name="Charm" value="0" />
+			<setvar name="Death" value="0" />
+			<setvar name="MagicEva" value="0" />			
+			<setvar name="hybrid" value="Off" />
+			<setvar name="MDTSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+			<setvar name="TH" value="0" />
+			<setvar name="Reraise" value="0" />
+			<addtochat color="36">[Everything has been reset!]</addtochat>
+		</cmd>
+	<cmd input="/cp">
+			<if advanced="$CP=0">
+				<setvar name="CP" value="1" />
+				<addtochat color="36">[CP Cape:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="CP" value="0" />
+				<addtochat color="36">[CP Cape:] Off</addtochat>
+			</else>
+	</cmd>			
+		<cmd input="/mp">
+			<if advanced="$MP=0">
+				<setvar name="MP" value="1" />
+				<addtochat color="36">[Refresh:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="MP" value="0" />
+				<addtochat color="36">[Refresh:] Off</addtochat>
+			</else>		
+		</cmd>		
+		<cmd input="/acc">
+
+			<if advanced="$Set=Old">
+				<setvar name="Set" value="Acc" />
+				<addtochat color="36">[Accuracy:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="Old" />
+				<addtochat color="36">[Accuracy:] Off</addtochat>
+			</else>
+		</cmd>
+	<cmd input="/sir">
+			<if advanced="$SIR=0">
+				<setvar name="SIR" value="1" />
+				<addtochat color="36">[Spell interrupt:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="SIR" value="0" />
+				<addtochat color="36">[Spell interrupt:] Off</addtochat>
+			</else>
+	</cmd>		
+	<cmd input="/charm">
+			<if advanced="$Charm=0">
+				<setvar name="Charm" value="1" />
+				<addtochat color="36">[Charm resist:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="Charm" value="0" />
+				<addtochat color="36">[Charm resist:] Off</addtochat>
+			</else>
+	</cmd>
+	<cmd input="/death">
+
+			<if advanced="$Death=0">
+				<setvar name="Death" value="1" />
+				<addtochat color="36">[Death resist:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="Death" value="0" />
+				<addtochat color="36">[Death resist:] Off</addtochat>
+			</else>
+	</cmd>		
+	<cmd input="/magiceva">
+			<if advanced="$MagicEva=0">
+				<setvar name="MagicEva" value="1" />
+				<addtochat color="36">[Magic Evasion:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="MagicEva" value="0" />
+				<addtochat color="36">[Magic Evasion:] Off</addtochat>
+			</else>
+	</cmd>		
+		<cmd input="/hybrid">
+
+			<if advanced="$hybrid=Off">
+				<setvar name="hybrid" value="On" />
+				<addtochat color="36">[Hybrid:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="hybrid" value="Off" />
+				<addtochat color="36">[Hybrid:] Off</addtochat>
+			</else>
+		</cmd>	
+
+
+		<!-- Treasure Hunter Toggle (If you want to replace the /th into
+                                                 something more user friendly, you can alter it just below -->
+		<cmd input="/th">
+			<if advanced="$TH=0">
+				<setvar name="TH" value="1" />
+				<addtochat color="36">[Treasure Hunter:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="TH" value="0" />
+				<addtochat color="36">[Treasure Hunter:] Off</addtochat>
+			</else>
+		</cmd>
+
+		<!-- MDT set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/mdt">
+			<setvar name="PDTSetActive" value="0" />
+			<if advanced="$MDTSetActive=0">
+				<setvar name="MDTSetActive" value="1" />
+				<addtochat color="36">[MDT:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="MDTSetActive" value="0" />
+				<addtochat color="36">[MDT:] Off</addtochat>
+			</else>
+		</cmd>
+		<!-- PDT set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/pdt">
+			<setvar name="MDTSetActive" value="0" />
+			<if advanced="$PDTSetActive=0">
+				<setvar name="PDTSetActive" value="1" />
+				<addtochat color="36">[PDT:] On</addtochat>
+			</if>
+			<else>
+				<setvar name="PDTSetActive" value="0" />
+				<addtochat color="36">[PDT:] Off</addtochat>
+			</else>
+		</cmd>
+
+		<!-- For personal testing. -->
+		<cmd input="/debug">
+		</cmd>
+	</inputcommands>
+
+	<init>
+        <command>/macro book 11</command>
+		<if p_subjob="WAR"><command delay="500">/macro set 1</command></if>
+		<if p_subjob="DRK"><command delay="500">/macro set 3</command></if>
+		<if p_subjob="BLU"><command delay="500">/macro set 4</command></if>		
+		<if p_subjob="SAM"><command delay="500">/macro set 5</command></if>
+		<if p_subjob="NIN"><command delay="500">/macro set 2</command></if>
+   	</init>
+	
+	<!-- These are the rules to make all your gearsets work.
+                                         Again, the code could be optimised, but do not touch them
+                                         if you do not know what you're doing. This can break the entire XML -->
+	<idlegear>
+		<if advanced="$Reraise=1">
+			<equip>
+				<head>Twilight Helm</head>
+				<body>Twilight Mail</body>
+			</equip>
+		</if>
+		<if advanced="$Kite=1">
+			<equip><feet>Hermes' sandals</feet></equip>
+		</if>
+		<if eq_rring="Trizek Ring">
+			<equip lock="true">
+				<rring>Trizek Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Capacity Ring">
+			<equip lock="true">
+				<rring>Capacity Ring</rring>                
+			</equip>
+		</if>
+
+		<if eq_rring="Facility Ring">
+			<equip lock="true">
+				<rring>Facility Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Dim. Ring (Dem)">
+			<equip lock="true">
+				<rring>Dim. Ring (Dem)</rring>                
+			</equip>
+		</if>
+		<if eq_lring="Dim. Ring (Dem)">
+			<equip lock="true">
+				<lring>Dim. Ring (Dem)</lring>                
+			</equip>
+		</if>
+
+		<if eq_rring="Warp Ring">
+			<equip lock="true">
+				<rring>Warp Ring</rring>				
+			</equip>
+		</if>
+		<elseif eq_lring="Warp Ring">
+			<equip lock="true">
+				<lring>Warp Ring</lring>				
+			</equip>
+		</elseif>		
+
+
+
+		<elseif p_status="resting">
+			<equip set="Resting" />
+		</elseif>
+
+		<elseif advanced="$EvasionSetActive=1">
+			<equip set="Evasion" />
+		</elseif>
+
+		<elseif advanced="$MagicEva=1">
+			<equip set="MagicEva" />
+			<if advanced="$Charm=1">
+				<equip set="Charm" />
+			</if>
+			<if advanced="$Death=1">
+				<equip set="Death" />
+			</if>				
+			<if p_ismoving="True">
+				<equip set="Movement" />
+			</if>
+			<if advanced="$Reraise=1">
+				<equip>
+					<head>Twilight Helm</head>
+					<body>Twilight Mail</body>
+				</equip>
+			</if>
+			<if BuffActive="2">
+				<equip>
+					<neck>Vim Torque</neck>
+				</equip>
+			</if>
+			<if BuffActive="15">
+				<equip>
+					<waist>Gishdubar Sash</waist>
+					<lring>Saida Ring</lring>
+					<rring>Purity Ring</rring>
+				</equip> 
+			</if>	
+			<if advanced="$CP=1">
+				<equip lock="true">
+					<back>Mecisto. Mantle</back>                
+				</equip>
+			</if>			
+		</elseif>	
+
+		<elseif advanced="$MDTSetActive=1">
+			<equip set="MDT" />
+			<if advanced="$Charm=1">
+				<equip set="Charm" />
+			</if>
+			<if advanced="$Death=1">
+				<equip set="Death" />
+			</if>				
+			<if p_ismoving="True">
+				<equip set="Movement" />
+			</if>
+			<if advanced="$Reraise=1">
+				<equip>
+					<head>Twilight Helm</head>
+					<body>Twilight Mail</body>
+				</equip>
+			</if>
+			<if BuffActive="2">
+				<equip>
+					<neck>Vim Torque</neck>
+				</equip>
+			</if>
+			<if BuffActive="15">
+				<equip>
+					<waist>Gishdubar Sash</waist>
+					<lring>Saida Ring</lring>
+					<rring>Purity Ring</rring>
+				</equip> 
+			</if>	
+			<if advanced="$CP=1">
+				<equip lock="true">
+					<back>Mecisto. Mantle</back>                
+				</equip>
+			</if>			
+		</elseif>
+
+
+
+		<elseif advanced="$TH=1">
+			<equip>			
+				<waist>Chaac Belt</waist>
+			</equip>
+		</elseif>
+
+		<elseif advanced="$PDTSetActive=1">
+			<equip set="PDT" />
+			<if advanced="$Charm=1">
+				<equip set="Charm" />
+			</if>
+			<if advanced="$Death=1">
+				<equip set="Death" />
+			</if>			
+			<if advanced="$Reraise=1">
+				<equip>
+					<head>Twilight Helm</head>
+					<body>Twilight Mail</body>
+				</equip>
+			</if>
+			<if p_ismoving="True">
+				<equip set="Movement" />
+			</if>
+			<if BuffActive="2">
+				<equip>
+					<neck>Vim Torque</neck>
+				</equip>
+			</if>
+			<if BuffActive="15">
+				<equip>
+					<waist>Gishdubar Sash</waist>
+					<lring>Saida Ring</lring>
+					<rring>Purity Ring</rring>
+				</equip> 
+			</if>	
+			<if advanced="$CP=1">
+				<equip lock="true">
+					<back>Mecisto. Mantle</back>                
+				</equip>
+			</if>			
+		</elseif>
+
+
+		<else>
+			<if p_status="engaged">
+				<if eq_main="Aganoshe">
+					<equip set="TP-$Set" />
+					<if advanced="$hybrid=On">
+						<equip set="TP-Hybrid1" />
+					</if>				
+				</if>
+				<else>
+					<equip set="GS-$Set" />
+					<if advanced="$hybrid=On">
+						<equip set="TP-Hybrid1" />
+					</if>			
+				</else>
+
+
+				<if advanced="$Reraise=1">
+					<equip>
+						<head>Twilight Helm</head>
+						<body>Twilight Mail</body>
+					</equip>
+				</if>
+				<elseif advanced="$TH=1">
+					<equip>
+						<waist>Chaac Belt</waist>
+					</equip>
+				</elseif>
+				<elseif advanced="$Reraise=1">
+					<equip>
+						<head>Twilight Helm</head>
+						<body>Twilight Mail</body>
+					</equip>
+				</elseif>
+				<if BuffActive="2">
+					<equip>
+						<neck>Vim Torque</neck>
+					</equip>
+				</if>
+				<if BuffActive="15">
+					<equip>
+						<waist>Gishdubar Sash</waist>
+						<lring>Saida Ring</lring>
+						<rring>Purity Ring</rring>
+					</equip> 
+				</if>	
+							<if advanced="$MP=1">
+				<equip set="Refresh Gear"/>              
+			</if>				
+							<if advanced="$CP=1">
+				<equip lock="true">
+					<back>Mecisto. Mantle</back>                
+				</equip>
+			</if>
+			</if>
+			<else>
+				<equip set="Idle" />
+				<if e_area="Ru'Lude*|Nashmau|Tavnazian Safehold|Port*|Bastok*|Windurst*|*San d'Oria|*Jeuno|*Whitegate|*Adoulin|Selbina|Mhaura|Norg">
+					<equip set="Town" />
+				</if>				
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+				<else>
+					<if advanced="$Reraise=1">
+						<equip>
+							<head>Twilight Helm</head>
+							<body>Twilight Mail</body>
+						</equip>
+					</if>
+				</else>
+				<if BuffActive="2">
+					<equip>
+						<neck>Vim Torque</neck>
+					</equip>
+				</if>
+				<if BuffActive="15">
+					<equip>
+						<waist>Gishdubar Sash</waist>
+						<lring>Saida Ring</lring>
+						<rring>Purity Ring</rring>
+					</equip> 
+				</if>	
+			<if advanced="$CP=1">
+				<equip lock="true">
+					<back>Mecisto. Mantle</back>                
+				</equip>
+			</if>				
+			</else>
+		</else>
+	</idlegear>
+
+	<preranged>
+		<equip set="Ranged" />
+	</preranged>
+
+	<premagic>
+			<equip set="Precast" />
+	<if ad_type="whitemagic">      
+			<if ad_skill="healingmagic">
+				<!--<addtochat color="36">Pre Healing Magic</addtochat>-->
+				<if ad_name="Cure*|Cura*">
+					<equip set="CurePre"/>
+				</if>
+			</if>
+			<elseif ad_skill="divinemagic">
+				<!--<addtochat color="36">Pre Divine Magic</addtochat>-->
+			</elseif>
+			<elseif ad_skill="enhancingmagic">
+				<!--<addtochat color="36">Pre White Enhancing Magic</addtochat>-->
+			</elseif>
+			<elseif ad_skill="enfeeblingmagic">
+				<equip set="EnhPre" />
+				<!--<addtochat color="36">Pre White Enfeebling Magic</addtochat>-->
+			</elseif>      
+		</if>
+		<elseif ad_type="blackmagic">      		
+			<if ad_skill="elementalmagic">
+					<equip set="ElePre" />
+				<!--<addtochat color="36">Pre Black Elemental Magic</addtochat>-->
+				<if ad_name="Impact"><equip set="Impact" lock="true" /></if>
+			</if>
+			<elseif ad_skill="darkmagic">
+				<!--<addtochat color="36">Pre Black Dark Magic</addtochat>-->
+				<if ad_name="Death"><equip set="DeathPre" lock="true" /></if>
+			</elseif>
+			<elseif ad_skill="enhancingmagic">
+				<equip set="EnhPre" />
+				<!--<addtochat color="36">Pre Black Enhancing Magic</addtochat>-->
+			</elseif>
+			<elseif ad_skill="enfeeblingmagic">
+				<!--<addtochat color="36">Pre Black Enfeebling Magic</addtochat>-->
+			</elseif>      
+		</elseif>
+		<elseif ad_name="Utsusemi: Ichi">
+			<equip set="SIRD" />
+			<if ad_name="*Ni">
+				<equip set="FastCast" />
+			</if>
+		</if>
+	</premagic>
+
+	<midmagic>
+		<equip set="Haste"/>
+		
+		<if ad_type="whitemagic">
+			<!--<addtochat color="36">Mid White Magic</addtochat>-->
+			<if ad_skill="healingmagic">
+				<!--<addtochat color="36">Mid Healing Magic</addtochat>-->
+				<if ad_name="Cure*|Curaga*">
+					<equip set="Cure"/>
+				</if>
+				<elseif ad_name="*na">
+					<if ad_name="Cursna">
+						<equip set="Cursna"/>
+					</if>
+				</elseif>
+			</if>
+			<elseif ad_skill="divinemagic">
+				<!--<addtochat color="36">Mid Divine Magic</addtochat>-->
+				<if ad_name="Vivacious Pulse"><equip set="Divine"/></if>
+				<if ad_name="Flash|Foil">
+					<equip set="Flash"/>
+				</if>
+			</elseif>
+			<elseif ad_skill="enhancingmagic">
+				<!--<addtochat color="36">Mid White Enhancing Magic</addtochat> -->
+				<equip set="Enhancing" />
+				<if ad_name="Refresh"><equip set="SelfRefresh" /></if>		
+				<if ad_name="Phalanx"><equip set="Phalanx" /></if>
+				<if ad_name="Crusade"><equip set="Crusade" /></if>
+				<if ad_name="Stoneskin">
+					<!--<addtochat color="36">Mid Stoneskin Magic</addtochat>-->
+					<equip set="Stoneskin"/>
+				</if>
+				<elseif ad_name="Regen*">
+					<equip set="Regen" />
+				</elseif>				
+			</elseif>
+			<elseif ad_skill="enfeeblingmagic">
+				<!--<addtochat color="36">Mid White Enfeebling Magic</addtochat>-->
+				    <equip set="Enfeeble-$EnfeebleSet" />
+			</elseif>      
+		</if>
+		<elseif ad_type="blackmagic">
+			<!--<addtochat color="36">Mid Black Magic</addtochat>       -->  
+			<if ad_skill="elementalmagic">
+				<!--<addtochat color="36">Mid Black Elemental Magic</addtochat> -->
+                <equip set="MAB" />
+
+                <elseif advanced="%ad_element=%e_dayelement">
+                    <if ad_element="Light|Fire|Dark|Water|Thunder|Earth|Wind|Ice">
+                        <equip>
+                            <waist>Hachirin-no-Obi</waist>
+                        </equip>
+                    </if>
+                    <equip>
+                        <!--<rring>Zodiac Ring</rring>-->
+                        <back>Twilight Cape</back>
+                    </equip>
+                </elseif>
+                <elseif advanced="%ad_element=%e_weatherelement">
+                    <if ad_element="Light|Fire|Dark|Water|Thunder|Earth|Wind|Ice">
+                        <equip when="midcast">
+                            <waist>Hachirin-no-Obi</waist>
+                        </equip>
+                    </if>
+                    <equip>
+                        <back>Twilight Cape</back>
+                    </equip>
+                </elseif>
+
+
+					</if>
+			<elseif ad_skill="darkmagic">
+				<!--<addtochat color="36">Mid Black Dark Magic</addtochat>-->
+				<if ad_name="Drain|Aspir*">
+					<equip set="DarkMagic" />
+				</if>
+				<elseif>
+				    <equip set="Enfeeble-$EnfeebleSet" />
+				</elseif>
+			</elseif>
+			<elseif ad_skill="enhancingmagic">
+					<!--<addtochat color="36">Mid Black Enhancing Magic</addtochat>-->
+				<if ad_name="Stoneskin"><equip set="SS" /></if>
+				<else>
+					<equip set="Enhancing" />
+				</else>
+			</elseif>
+			<elseif ad_skill="enfeeblingmagic">
+				<!--<addtochat color="36">Mid Black Enfeebling Magic</addtochat>-->
+				    <equip set="Enfeeble-$EnfeebleSet" />
+			</elseif>  
+
+		</elseif>	
+		<elseif ad_name="Monomi*">
+			<command>/cancel 71</command>
+		</elseif>
+
+
+		<elseif ad_name="Utsusemi: Ichi">
+			<!-- Cancels shadows if... -->
+			<if buffactive="66"> <!-- One is shadow left -->
+				<command>/cancel 66</command>
+			</if>
+			<elseif buffactive="444"> <!-- Two shadows are left -->
+				<command>/cancel 444</command>
+			</elseif>
+			<else> <!-- Three are shadows left -->
+				<command>/cancel 445</command>
+			</else>
+		</elseif>
+
+	</midmagic>
+
+	<jobability>                           
+
+		<if ad_name="Provoke">
+			<equip set="ENMITY" />
+		</if>
+
+		<elseif ad_name="Vivacious Pulse">
+			<equip set="Vivacious Pulse" />
+		</elseif>
+		
+		<elseif ad_name="Pflug" baseset="ENMITY">
+			<equip><feet>Runeist Bottes +1</feet></equip>
+		</elseif>
+
+		<elseif ad_name="Valiance" baseset="ENMITY">
+			<equip><body>Runeist Coat +1</body>
+			<legs>Futhark Trousers +1</legs></equip>
+		</elseif>
+		
+		<elseif ad_name="Vallation" baseset="ENMITY">
+			<equip><body>Runeist Coat +1</body></equip>
+		</elseif>
+
+		<elseif ad_name="Gambit" baseset="ENMITY">
+			<equip><hands>Runeist Mitons +1</hands></equip>
+		</elseif>		
+		
+		<elseif ad_name="Battuta" baseset="ENMITY">
+			<equip><head>Fu. Bandeau +1</head></equip>
+		</elseif>
+		
+		<elseif ad_name="Embolden" baseset="ENMITY">
+			<equip><back>Evasionist's Cape</back></equip>
+		</elseif>
+		
+		<elseif ad_name="Liement|Elemental Sforzo" baseset="ENMITY">
+			<equip><body>Futhark Coat +1</body></equip>
+		</elseif>
+		
+		<elseif ad_name="Swordplay" baseset="ENMITY">
+			<equip><hands>Futhark Mitons +1</hands></equip>
+		</elseif>
+		
+		<elseif ad_name="Rayke" baseset="ENMITY">
+			<equip><feet>Futhark Boots +1</feet></equip>
+		</elseif>
+		
+		<elseif ad_name="Lunge" baseset="ENMITY">
+			<equip set="MAB" />
+		</elseif>
+		
+		
+<!-- 		<elseif ad_name="Spectral Jig">
+			<command>/cancel 71</command>
+		</elseif> -->
+			
+	</jobability>
+
+	<weaponskill>
+
+		<if ad_name="Dimidation">
+			<equip set="Dimidation-$Set" />
+		</if>
+
+		<elseif ad_name="Resolution|Fell Cleave">
+			<equip set="Reso-$Set" />
+		</elseif>
+
+		<elseif ad_name="Requiescat">
+			<equip set="Req-$Set" />
+		</elseif>
+		
+		<elseif ad_name="Savage Blade">
+			<equip set="Reso-$Set" />
+		</elseif>
+		
+		<elseif ad_name="Shockwave">
+			<equip set="Shockwave" />
+		</elseif>
+
+		<elseif ad_name="Sanguine Blade|Herculean Slash">
+			<equip set="MAB" />
+		</elseif>
+		
+		<else>
+			<equip set="Multi-$Set" />
+		</else>
+			<if advanced="$CP=1">
+				<equip lock="true">
+					<back>Mecisto. Mantle</back>                
+				</equip>
+			</if>			
+		<if p_tp="<3000"><equip><ear2>Moonshade Earring</ear2></equip></if>
+				<!--if e_time=">17.01|<6.59"><equip><lear>Lugra Earring +1</lear></equip></if-->
+			</weaponskill>
+
+					</ashitacast>

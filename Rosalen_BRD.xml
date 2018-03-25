@@ -1,0 +1,631 @@
+<ashitacast>
+	<settings>
+		<!--Contains settings specific to this xml, must be set to true/false to override default-->
+		<buffupdate>true</buffupdate>
+		<!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+		<statusupdate>true</statusupdate>
+		<!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+		<hpupdate>false</hpupdate>
+		<!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+		<autoupdate>true</autoupdate>
+		<!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+	</settings>
+	<sets>
+			<set name="Idle-DT">
+			<main>Kali</main>
+			<sub>Genbu's Shield</sub>
+			<ammo>Demonry Stone</ammo>
+			<head augment="D6017357984004">Vanya Hood</head>
+			<body>Inyanga Jubbah +2</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Inyanga Shalwar +1</legs>
+			<feet>Inyan. Crackows +1</feet>
+			<neck>Loricate Torque</neck>
+			<waist>Demonry Sash</waist>
+			<ear1>Gifted Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Inyanga Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Cheviot Cape</back>
+		</set>
+	
+		<set name="Idle-Refresh">
+			<main augment="D15496489799196">Kali</main>
+			<sub>Genbu's Shield</sub>
+			<ammo>Demonry Stone</ammo>
+			<head>Inyanga Tiara +1</head>
+			<body>Gendewitha Bliaut</body>
+			<hands augment="S59408141733412356">Chironic Gloves</hands>
+			<legs>Nares Trews</legs>
+			<feet augment="S592848439626">Chironic Slippers</feet>
+			<neck>Loricate Torque</neck>
+			<waist>Demonry Sash</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Metamorph Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Cheviot Cape</back>			
+		</set>
+		<!-- You can turn on your evasion set to be 'default TP set' by typing /eva -->
+
+		<!-- You can turn an an MDT set here by typing /mdt -->
+		<!-- However mine is not included, as I don't have inventory room at the moment -->
+		<set name="MDT">
+			<main augment="D15496489799196">Kali</main>
+			<sub>Genbu's Shield</sub>
+			<ammo>Demonry Stone</ammo>
+			<head>Inyanga Tiara +1</head>
+			<body>Inyanga Jubbah +2</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Inyanga Shalwar +1</legs>
+			<feet>Inyan. Crackows +1</feet>
+			<neck>Loricate Torque</neck>
+			<waist>Bougonia Rope</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Metamorph Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Solemnity Cape</back>
+		</set>
+
+		<!-- Same as above, you can type /pdt to turn on this set, if you have one -->
+		<set name="PDT" >
+			<main augment="D15496489799196">Kali</main>
+			<sub>Genbu's Shield</sub>
+			<ammo>Demonry Stone</ammo>
+			<head>Aya. Zucchetto +1</head>
+			<body>Emet Harness</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Aya. Cosciales +2</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Loricate Torque</neck>
+			<waist>Bougonia Rope</waist>
+			<ear1>Odnowa Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Metamorph Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Cheviot Cape</back>
+		</set>
+		<set name="TP-Melee">
+			<main augment="D15496489799196">Kali</main>
+			<sub>Genbu's Shield</sub>
+			<ammo>Ginsen</ammo>
+			<head>Aya. Zucchetto +1</head>
+			<body>Ayanmo Corazza +1</body>
+			<hands>Aya. Manopolas +1</hands>
+			<legs>Aya. Cosciales +2</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Peacock Charm</neck>
+			<waist>Windbuffet Belt</waist>
+			<ear1>Brutal Earring</ear1>
+			<ear2>Ghillie Earring +1</ear2>
+			<ring1>Rajas Ring</ring1>
+			<ring2>Ayanmo Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="TP-No">
+
+		</set>
+		<set name="Resting" baseset="Idle-Refresh">
+			<main>Chatoyant Staff</main>
+
+
+		</set>
+		<set name="WindAcc">
+			<main augment="D15496489799196">Kali</main>
+			<sub>Genbu's Shield</sub>
+			<range>Eminent Flute</range>
+			<head>Brioso Roundlet +1</head>
+			<body>Brioso Just. +1</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Inyanga Shalwar +1</legs>
+			<feet>Inyan. Crackows +1</feet>
+			<neck>Barcarolle Medal</neck>
+			<waist>Demonry Sash</waist>
+			<ear1>Hermetic Earring</ear1>
+			<ear2>Myrddin Pearl</ear2>
+			<ring1>Inyanga Ring</ring1>
+			<ring2>Perception Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+		<set name="StringAcc" baseset="WindAcc">
+			<main augment="D15496489799196">Kali</main>
+			<sub>Genbu's Shield</sub>
+			<range>Eminent Flute</range>
+			<head>Brioso Roundlet +1</head>
+			<body>Brioso Just. +1</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Inyanga Shalwar +1</legs>
+			<feet>Inyan. Crackows +1</feet>
+			<neck>Moonbow Whistle</neck>
+			<waist>Demonry Sash</waist>
+			<ear1>Hermetic Earring</ear1>
+			<ear2>Myrddin Pearl</ear2>
+			<ring1>Inyanga Ring</ring1>
+			<ring2>Perception Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+
+				<set name="Paeon">
+			<main>Kali</main>
+			<sub>Genbu's Shield</sub>
+			<range>Terpander</range>
+			<head augment="M0">Aoidos' Calot +2</head>
+			<body>Aoidos' Hngrln. +2</body>
+			<hands augment="M0">Ad. Mnchtte. +2</hands>
+			<legs augment="M0">Aoidos' Rhing. +2</legs>
+			<feet augment="M0">Aoidos' Cothrn. +2</feet>
+			<neck>Moonbow Whistle</neck>
+			<waist>Phasmida Belt</waist>
+			<ear1>Aoidos' Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+		<set name="Buff">
+			<main>Kali</main>
+			<sub>Genbu's Shield</sub>
+		
+			<head augment="M0">Aoidos' Calot +2</head>
+			<body>Aoidos' Hngrln. +2</body>
+			<hands augment="M0">Ad. Mnchtte. +2</hands>
+			<legs augment="M0">Aoidos' Rhing. +2</legs>
+			<feet augment="M0">Aoidos' Cothrn. +2</feet>
+			<neck>Moonbow Whistle</neck>
+			<waist>Phasmida Belt</waist>
+			<ear1>Aoidos' Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+		<set name="Cure">
+			<main>Chatoyant Staff</main>
+			<sub>Achaq Grip</sub>
+			<ammo>Hydrocera</ammo>
+			<head augment="D6017357984004">Vanya Hood</head>
+			<body augment="S6198">Gendewitha Bliaut</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Nares Trews</legs>
+			<feet augment="D6258010293372">Vanya Clogs</feet>
+			<neck>Healing Torque</neck>
+			<waist>Demonry Sash</waist>
+			<ear1>Mendi. Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Sirona's Ring</ring1>
+			<ring2>Ephedra Ring</ring2>
+			<back>Pahtli Cape</back>
+		</set>
+		<set name="Haste">
+			<head>Brioso Roundlet +1</head>
+			<body>Brioso Just. +1</body>
+			<hands>Brioso Cuffs +1</hands>
+			<legs>Brioso Cann. +1</legs>
+			<feet>Brioso Slippers +1</feet>
+			<neck>Twilight Torque</neck>
+			<waist>Dynamic Belt</waist>
+			<ear1>Gifted Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back>Swith Cape</back>
+		</set>
+		<set name="Stoneskin">
+
+			<waist>Siegel Sash</waist>
+			<legs>Brioso Cann. +1</legs>
+
+		</set>
+		<set name="Precast">
+			<ammo>Ghastly Tathlum</ammo>
+			<head>Inyanga Tiara +1</head>
+			<body>Inyanga Jubbah +2</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Orvail Pants +1</legs>
+			<feet>Brioso Slippers +1</feet>
+			<neck>Weike Torque</neck>
+			<waist>Bougonia Rope</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2>Gifted Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+		<set name="SongPrecast">
+			<main>Kali</main>
+			<sub>Genbu's Shield</sub>
+
+			<head augment="M0">Aoidos' Calot +2</head>
+			<body>Praeco Doublet</body>
+			<hands augment="S2102">Gendewitha Gages</hands>
+			<legs augment="S155322422">Gendewitha Spats</legs>
+			<feet>Bihu Slippers</feet>
+			<neck>Aoidos' Matinee</neck>
+			<waist>Aoidos' Belt</waist>
+			<ear1>Aoidos' Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+		<set name="Cursna" baseset="Haste">
+			<hands>Augur's Gloves</hands>
+			<feet augment="S6198">Gende. Galoshes</feet>
+			<neck>Healing Torque</neck>
+			<waist>Demonry Sash</waist>
+			<ring1>Sirona's Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+		</set>
+		<set name="MultiWS" baseset="TP-Melee">
+		</set>
+
+		<set name="Movement">
+			<feet>Aoidos' Cothrn. +2</feet>
+		</set>
+
+
+
+		<set name="EnhPre" baseset="Precast">
+			<waist>Siegel Sash</waist>		
+		</set>
+
+
+		<set name="CurePre">
+
+			<ammo>Hydrocera</ammo>
+			<head>Inyanga Tiara +1</head>
+			<body>Inyanga Jubbah +2</body>
+			<hands>Inyan. Dastanas +2</hands>
+			<legs>Orvail Pants +1</legs>
+			<feet augment="D6258010293372">Vanya Clogs</feet>
+			<neck>Weike Torque</neck>
+			<waist>Bougonia Rope</waist>
+			<ear1>Mendi. Earring</ear1>
+			<ear2>Loquac. Earring</ear2>
+			<ring1>Prolix Ring</ring1>
+			<ring2>Bifrost Ring</ring2>
+			<back augment="S255541914218572">Intarabus's Cape</back>
+		</set>
+
+
+	</sets>
+	<variables>
+		<var name="Set">No</var>
+		<var name="IdleSet">Refresh</var>
+		<var name="EnfeebleSet">Low</var>	
+		<var name="Set">No</var>
+		<var name="MDTSetActive">0</var>
+		<var name="PDTSetActive">0</var>
+		<var name="TH">0</var>
+		<var name="StringVar">false</var>
+	</variables>
+	<inputcommands>
+		<cmd input="/killall">
+			<setvar name="Set" value="No" />
+			<setvar name="IdleSet" value="Refresh" />
+			<setvar name="EnfeebleSet" value="Low" />		
+			<setvar name="Set" value="No" />
+			<setvar name="MDTSetActive" value="0" />
+			<setvar name="PDTSetActive" value="0" />
+			<setvar name="TH" value="0" />
+			<setvar name="Reraise" value="0" />
+			<addtochat color="57">KILLED IT ALL, son!</addtochat>
+		</cmd>
+		
+		
+		<cmd input="/singstring ">
+			<setvar name="StringVar" value="true" />
+			<command>/ma %args</command>		
+		</cmd>
+		<cmd input="/stringonce">
+			<setvar name="StringVar" value="true" />
+			<addtochat color="159">Next song will use Terpander.</addtochat>
+		</cmd>
+		<cmd input="/report">
+						<addtochat color="57">Idle: [$IdleSet], Nuke: [$NukeSet], Enfeeble: [$EnfeebleSet]</addtochat>
+		</cmd>
+		<cmd input="/acc">
+
+			<if advanced="$Set=No">
+				<setvar name="Set" value="Melee" />
+				<addtochat color="57">Melee mode, son!</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="No" />
+				<addtochat color="57">Let's just cast some shit, son!</addtochat>
+			</else>
+		</cmd>
+		<cmd input="/idleset ">
+				         <setvar name="IdleSet" value="%arg1" />
+            <addtochat color="159">Idle set in use: $IdleSet</addtochat>
+		</cmd>
+		<cmd input="/nukeset ">
+		            <setvar name="NukeSet" value="%arg1" />
+            <addtochat color="159">Nuke set in use: $NukeSet</addtochat>
+		</cmd>
+		<cmd input="/enfeebleset ">
+				            <setvar name="EnfeebleSet" value="%arg1" />
+            <addtochat color="159">Enfeeble set in use: $EnfeebleSet</addtochat>
+		</cmd>
+
+		<!-- MDT set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/mdt">
+
+			<setvar name="PDTSetActive" value="0" />
+			<if advanced="$MDTSetActive=0">
+				<setvar name="MDTSetActive" value="1" />
+				<addtochat color="57">MDT set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="MDTSetActive" value="0" />
+				<addtochat color="57">MDT set disabled.</addtochat>
+			</else>
+		</cmd>
+		<!-- PDT set toggle -->
+		<!-- As stated, you can alter the command input below if you wish -->
+		<cmd input="/pdt">
+
+			<setvar name="MDTSetActive" value="0" />
+			<if advanced="$PDTSetActive=0">
+				<setvar name="PDTSetActive" value="1" />
+				<addtochat color="57">PDT set enabled!</addtochat>
+			</if>
+			<else>
+				<setvar name="PDTSetActive" value="0" />
+				<addtochat color="57">PDT set disabled.</addtochat>
+			</else>
+		</cmd>
+	</inputcommands>
+
+
+
+	<premagic>
+		<!--if eq_main="Leisilonu +2">
+			<equip lock="true">
+				<main>%eq_main</main>
+				<sub>%eq_sub</sub>
+			</equip>
+		</if-->
+		<if ad_type="BardSong">
+		 <equip set="SongPrecast" />
+		</if>
+
+	<elseif ad_type="whitemagic">      
+			<if ad_skill="healingmagic">
+				<!--<addtochat color="57">Pre Healing Magic</addtochat>-->
+				<if ad_name="Cure*|Cura*">
+					<equip set="CurePre"/>
+				</if>
+			</if>
+			<elseif ad_skill="divinemagic">
+				<!--<addtochat color="57">Pre Divine Magic</addtochat>-->
+			</elseif>
+			<elseif ad_skill="enhancingmagic">
+				<!--<addtochat color="57">Pre White Enhancing Magic</addtochat>-->
+				<equip set="EnhPre" />				
+			</elseif>
+			<elseif ad_skill="enfeeblingmagic">
+				<!--<addtochat color="57">Pre White Enfeebling Magic</addtochat>-->
+			</elseif>      
+		</elseif>
+		<else>
+			<equip set="Precast" />
+		</else>
+
+	</premagic>
+
+	<midmagic>
+		<!--<if eq_main="izhiikoh">
+			<equip lock="true">
+				<main>%eq_main</main>
+				<sub>%eq_sub</sub>
+			</equip>
+		</if>-->
+		<equip set="Stand" />
+		<if ad_type="BardSong">
+			<if advanced="$StringVar=true">
+				<setvar name="StringVar" value="false" />
+				<equip lock="true">
+					<range>Terpander</range>
+				</equip>
+				<if ad_name="Foe Lullaby*|Horde Lullaby*">
+					<equip when="precast" set="StringAcc">
+						<hands>Brioso Cuffs +1</hands>
+					</equip>
+					<return />
+				</if>
+
+			</if>
+			
+
+			<else>	
+			
+			<if ad_name="Army's Paeon*">
+				<equip set="Paeon" lock="true"></equip>
+			</if>
+			<else>
+				<equip lock="true">
+					<range>Eminent Flute</range>
+				</equip>
+			</else>
+
+			<if ad_name="Foe Lullaby*|Horde Lullaby*">
+					<equip set="StringAcc">
+						<hands>Brioso Cuffs +1</hands>
+					</equip>
+					<return />				
+				</if>
+				<elseif ad_name="Pining Nocturne|Foe Requiem*|*Elegy|Magic Finale|*Threnody">
+					<equip set="WindAcc" />
+					<return />
+				</elseif>
+			</else>
+
+			
+			<equip set="Buff" />
+
+			<if ad_name="Sentinel's Scherzo">
+				<equip>
+					<feet>Aoidos' Cothrn. +2</feet>
+				</equip>
+			</if>
+
+			<elseif ad_name="Advancing March|Victory March">
+				<equip>
+					<hands>Ad. Mnchtte. +2</hands>
+				</equip>
+			</elseif>
+
+			<elseif ad_name="Sword Madrigal|Blade Madrigal">
+				<equip>
+					<head>Aoidos' Calot +2</head>
+				</equip>
+			</elseif>
+
+			<elseif ad_name="Mage's Ballad*">
+				<equip>
+					<legs>Aoidos' Rhing. +2</legs>
+				</equip>
+			</elseif>
+
+			<elseif ad_name="Army's Paeon*">
+				<equip>
+					<head>Brioso Roundlet +1</head>
+				</equip>
+			</elseif>
+		</if>
+		<if ad_type="WhiteMagic">
+			<if ad_name="Cure*|Curaga*">
+				<equip set="Cure" />
+			</if>
+			<elseif ad_name="Stoneskin">
+				<equip set="Stoneskin" />
+			</elseif>
+			<elseif ad_name="Cursna">
+				<equip set="Cursna" />
+			</elseif>
+		</if>
+	</midmagic>
+
+	<preranged>
+		<equip>
+			<range></range>
+		</equip>
+	</preranged>
+
+	<idlegear>
+
+		<!--if eq_main="izhiikoh">
+			<equip lock="true">
+				<main>%eq_main</main>
+				<sub>%eq_sub</sub>
+			</equip>
+		</if-->
+
+		<if eq_rring="Trizek Ring">
+			<equip lock="true">
+				<rring>Trizek Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Capacity Ring">
+			<equip lock="true">
+				<rring>Capacity Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Vocation Ring">
+			<equip lock="true">
+				<rring>Vocation Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Facility Ring">
+			<equip lock="true">
+				<rring>Facility Ring</rring>                
+			</equip>
+		</if>
+		<if eq_rring="Dim. Ring (Dem)">
+			<equip lock="true">
+				<rring>Dim. Ring (Dem)</rring>                
+			</equip>
+		</if>
+
+
+
+
+		<if eq_rring="Warp Ring">
+			<equip lock="true">
+				<rring>Warp Ring</rring>				
+			</equip>
+		</if>
+
+		<if p_status="resting">
+			<equip set="Resting" />
+		</if>
+		
+	
+		
+		<if p_status="engaged">
+
+
+			<equip set="TP-$Set" />
+
+		</if>
+
+
+		<else>
+
+
+			<equip set="Idle-$IdleSet" />
+
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+		<if advanced="$MDTSetActive=1">
+			<equip set="MDT" />
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+		</if>
+
+		<elseif advanced="$PDTSetActive=1">
+			<equip set="PDT"/>
+				<if p_ismoving="True">
+					<equip set="Movement" />
+				</if>
+		</elseif>	
+
+			</else>
+	</idlegear>
+
+	<jobability>
+		<if ad_name="Soul Voice">
+			<equip>
+				<legs>Bihu Cannions</legs>
+			</equip>
+		</if>
+		<if ad_name="Troubadour">
+			<equip>
+				<body>Bihu Justaucorps</body>
+			</equip>
+		</if>
+		<if ad_name="Nightingale">
+			<equip>
+				<feet>Bihu Slippers</feet>
+			</equip>
+		</if>
+		<if ad_name="Pianissimo">
+			<registerbuff id="409" />
+		</if>
+		<if ad_name="Spectral Jig">
+			<command>/cancel 71</command>
+		</if>
+	</jobability>
+
+	<weaponskill>
+
+		<else>
+			<equip set="MultiWS" />
+		</else>
+	</weaponskill>
+</ashitacast>
